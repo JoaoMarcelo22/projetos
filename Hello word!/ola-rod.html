@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="fo.css">
-    <title>Olá</title>
+    <link rel="shortcut icon" href="_imagens/favicon-32x32.png" type="image/x-icon">
+        <title>Olá</title>
     <script type="text/javascript">
         var quebrada =false;
         function mudaLampada(tipo){
             if(!quebrada){
                 document.getElementById('luz').src=tipo+".jpg";
-                if(tipo == 'lampada-quebrada'){
+                if(tipo == '_imagens/lampada-quebrada'){
                     quebrada = true;
                 };
             };
@@ -24,16 +25,18 @@
        <h2> Olá amigos, aqui podemos ver a minha evolução!!!</h2>
     </header>
     <aside id="imagem" class="right">
-        <img src="hello-word.jpg" alt="">
+        <img src="_imagens/hello-word.jpg" alt="imagem olá mundo">
     </aside>
     <article id="texto" class="left">
         <h4>então, o objetivo desse projeto é ir incrimentando tags pouco a pouco.</h4>
-        <h5>Mova o Mouse em cima da lampada(1)</h5>
-        <h5>Retire o Mouse da lampada(2)</h5>
-        <h5>Click na lampada(3)</h5>
-        <img src="lampada-apagada.jpg" id="luz"onmousemove="mudaLampada('lampada-acesa')
-        "onmouseout="mudaLampada('lampada-apagada')"
-        onclick="mudaLampada('lampada-quebrada')"/>
+        <ul>
+            <h5>Mova o Mouse em cima da lampada(1)</h5>
+            <h5>Retire o Mouse da lampada(2)</h5>
+            <h5>Click na lampada(3)</h5>
+        </ul>
+        <img src="_imagens/lampada-apagada.jpg" id="luz"onmousemove="mudaLampada('_imagens/lampada-acesa')
+        "onmouseout="mudaLampada('_imagens/lampada-apagada')"
+        onclick="mudaLampada('_imagens/lampada-quebrada')"/>
     </article>
     <footer id="rodape">
         <small> copyright&copy;  Documento feito em 28/05/2021 JM</small>
