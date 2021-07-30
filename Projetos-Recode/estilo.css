@@ -1,9 +1,7 @@
-@charset "UTF-8"
-
-
+@charset "UTF-8";
 *{
-    padding: 0px;
-    margin: 0px;
+    padding: 1px;
+    margin: 1px;
 }
 body{
     background-color: salmon;
@@ -14,4 +12,9 @@ footer{text-align: center;
     text-align: center;
     font-size: 15px;
 
+}
+#tabela{
+    text-align: center;
+    color: white;
+    background-color: red;
 }
