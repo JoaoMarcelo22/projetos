@@ -19,6 +19,9 @@ footer{text-align: center;
     background-color: red;
     width: 100%;
 }
+#tabela a{
+    color: white;
+}
 #contato{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -37,6 +40,18 @@ footer{text-align: center;
     text-align: left;
 }
 #endereco{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.local{
+    width: 33%;
+    text-align: center;
+    
+}
+footer h4{
+    color: red;
+}
+#catalogo{
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
