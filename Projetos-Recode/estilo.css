@@ -14,12 +14,12 @@ footer{text-align: center;
 
 }
 #tabela{
-    text-align: center;
-    color: white;
+
     background-color: red;
-    width: 100%;
+
 }
 #tabela a{
+    text-decoration: none;
     color: white;
 }
 #contato{
