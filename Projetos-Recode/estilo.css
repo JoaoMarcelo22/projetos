@@ -13,21 +13,9 @@ footer{text-align: center;
     font-size: 15px;
 
 }
-#tabela{
 
-    background-color: red;
-
-}
-#tabela a{
-    text-decoration: none;
-    color: white;
-}
-#contato{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    text-align: center;
-    width: 100%;
-    
+.preco{
+    color: red;
 }
 .contato{
     width: 50%;
