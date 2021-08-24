@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+    <script src="_Js/Script.js"></script>
     <title>Produtos- Full Stack Eletro</title>
 </head>
 <body>
@@ -22,17 +23,17 @@
      <section class="categorias">
           <h3>Categorias</h3>
              <ol>
-                 <li>Geladeiras (3)</li>
-                 <li>Fogões (2)</li>
-                 <li>Microondas (3)</li>
-                 <li>Lavadora de Roupas (2)</li>
-                 <li>Lava Louças (2)</li>
+                 <li onclick="exibir_categoria('Geladeira')">  Geladeiras (3)</li>
+                 <li onclick="exibir_categoria('Fogão')">Fogões (2)</li>
+                 <li onclick="exibir_categoria('Microondas')">Microondas (3)</li>
+                 <li onclick="exibir_categoria('Lavadora de roupas')">Lavadora de Roupas (2)</li>
+                 <li onclick="exibir_categoria('Lava louças')">Lava Louças (2)</li>
             </ol>
      </section>
         
 <section class="produtos">
 
-   <div class="box_produto">
+   <div class="box_produto" id="geladeira">
         <img src="_imagens/geladeira-brastemp-side-inverse-540-litros.jpg" alt="Geladeira frost free" width="120px">
         <br>
         <p class="descricao">Geladeira Frost Free Brastemp Side Inverse 540 Litros</p>
@@ -41,7 +42,7 @@
         <p class="preco">R$ 5.019,00</p>  
    </div>
     
-    <div class="box_produto">
+    <div class="box_produto" id="geladeira">
         <img src="_imagens/Geladeira-BRE80AK-Frontal.jpg" alt="" width="120px">
         <br>
         <p class="descricao">Frost Free Inverse 573 litros cor Inox com Smart Bar</p>
@@ -51,7 +52,7 @@
     </div>
     
     
-    <div class="box_produto">
+    <div class="box_produto" id="geladeira">
         <img src="_imagens/Brastemp_Geladeira_BRE57AK.jpg" alt="" width="120px">
         <br>
         <p class="descricao">Frost Free Inverse 443 litros cor Inox com Turbo Ice</p>
@@ -60,7 +61,7 @@
         <p class="preco">R$ 4.199,00 </p>
     </div>
        
-    <div class="box_produto">
+    <div class="box_produto" id="fogao">
         <img src="_imagens/fogao01.jpg" alt="" width="120px">
         <br>
         <p class="descricao">5 Bocas preto com mesa de vidro e turbo chama</p>
@@ -70,7 +71,7 @@
     </div>
 </section>
 
-<section class="produtos">
+<section class="produtos" id="fogao">
     <div class="box_produto">
         <img src="_imagens/fogao02.jpg" alt="" width="120px">
         <br>
@@ -79,7 +80,7 @@
         <p class="descricao"><strike>R$ 3.630,00</strike></p>
         <p class="preco">R$ 3.054,53 </p>
     </div>
-    <div class="box_produto">
+    <div class="box_produto" id="microondas">
         <img src="_imagens/microondas01.jpg" alt="" width="120px">
         <br>
         <p class="descricao">32 Litros cor Inox Espelhado com Painel Integrado</p>
@@ -87,7 +88,7 @@
         <p class="descricao"><strike>R$ 1.025,00</strike></p>
         <p class="preco">R$ 699,00 </p>
     </div>
-    <div class="box_produto">
+    <div class="box_produto" id="microondas">
         <img src="_imagens/microondas02.jpg" alt="" width="120px">
         <br>
         <p class="descricao">32 Litros Preto com Grill e Painel Integrado</p>
@@ -95,7 +96,7 @@
         <p class="descricao"><strike>R$ 1.229,00</strike></p>
         <p class="preco">R$ 1.049,00 </p>
     </div>
-    <div class="box_produto">
+    <div class="box_produto" id="microondas">
         <img src="_imagens/microondas03.jpg" alt="" width="120px">
         <br>
         <p class="descricao">32 Litros Branco com Painel Integrado</p>
@@ -107,7 +108,7 @@
 
 
 <section>
-    <div class="box_produto">
+    <div class="box_produto" id="lavaRoupa">
         <img src="_imagens/lavaroupa01.jpg" alt="" width="120px">
         <br>
         <p class="descricao">12Kg titânio com Ciclo Tira Manchas Advanced e Ciclo Antibolinha</p>
@@ -116,7 +117,7 @@
         <p class="preco">R$ 2.309,00</p>
     </div>
 
-    <div class="box_produto">
+    <div class="box_produto" id="lavaRoupa">
         <img src="_imagens/lavaroupa02.jpg" alt="" width="120px"></img></img>
         <br>
         <p class="descricao">12Kg branca Água Quente com Ciclo Tira Manchas Pro e Ciclo Antibolinha</p>
@@ -125,7 +126,7 @@
         <p class="preco">R$ 2.119,00</p>
     </div>
 
-    <div class="box_produto">
+    <div class="box_produto" id="lavaLouca">
         <img src="_imagens/lavalouca01.jpg" alt="" width="120px">
         <br>
         <p class="descricao">Compacta Prata com Ciclo Pesado</p>
@@ -134,7 +135,7 @@
         <p class="preco">R$ 2.149,00</p>
     </div>
 
-    <div class="box_produto">
+    <div class="box_produto" id="lavaLouca">
         <img src="_imagens/lavalouca02.jpg" alt="" width="120px">
         <br>
         <p class="descricao">Compacta Branca com Ciclo Pesado</p>
