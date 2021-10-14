@@ -3,21 +3,25 @@ img{
     height: 70%;
 }
 th{
-    padding: 5px;
+    padding: 10px;
+    text-align: center;
 }
 td{
-padding: 5px;
+padding: 10px;
+text-align: center;
 }
 footer{
     text-align: center;
     margin: 0px;
     padding: 0px;
-}
-a nav{
-    font-size: 20px;
-    margin: 20%;
-}
-tr{
-    width: 100%;
+    background-color: rgba(0, 0, 255, 0.438);
 }
 
+nav{
+    background-color: greenyellow;
+}
+.menu{
+    font-size: 26px;
+    margin: 5%;
+    color:green;
+}
