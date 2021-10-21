@@ -10,6 +10,9 @@ td{
 padding: 10px;
 text-align: center;
 }
+body{
+    background-color: darkgray;
+}
 footer{
     text-align: center;
     margin: 0px;
@@ -25,4 +28,42 @@ nav{
     font-size: 26px;
     margin: 5%;
     color:green;
+}
+#RNE{
+    background-color: rgba(172, 255, 47, 0.603);
+}
+#RegiaoNorte{
+    background-color:#d6e9a9;
+    display: inline-block;
+    height: 180px;
+    width: 200px;
+    margin: 5%;
+}
+#RegiaoNordeste{
+    background-color:#ffb065;
+    display: inline-block;
+    height: 180px;
+    width: 200px;
+    margin: 5%;
+}
+#RegiaoCentro{
+    background-color:#e5ff00 ;
+    display: inline-block;
+    height: 180px;
+    width: 200px;
+    margin: 5%;
+}
+#RegiaoSudeste{
+    background-color:#f2ccff ;
+    display: inline-block;
+    height: 180px;
+    width: 200px;
+    margin: 5%;
+}
+#RegiaoSul{
+    background-color:#9091c9;
+    display: inline-block;
+    height: 180px;
+    width: 200px;
+    margin: 5%;
 }
