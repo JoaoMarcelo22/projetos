@@ -15,10 +15,15 @@ nav{
 nav a{
     text-align: center;
     margin: 5%;
-    background-color: black;
+    background-color: cadetblue;
     padding: 20px;
 }
 footer{
     background-color: blueviolet;
     text-align: center;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: burlywood;
+    background-color: darkblue;
 }
