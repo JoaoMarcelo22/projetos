@@ -3,6 +3,17 @@
     padding: 1px;
     margin: 1px;
 }
+nav{
+    text-align: center;
+}
+nav a{
+    text-align: center;
+    margin: 5%;
+    padding: 20px;
+}
+nav a:hover{
+    background-color: burlywood;
+}
 body{
     background-color: salmon;
 }
@@ -51,4 +62,7 @@ footer h4{
 }
 .produto h3{
     color: red;
+}
+.box_produto{
+    display: inline-block;
 }
