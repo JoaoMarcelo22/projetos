@@ -1,0 +1,6 @@
+Palheta de Cores:
+Amarelo: #F5E213  Texto : Black and White
+Cinza  : #ADA7A4
+Azul   : #0087F5
+Red    : #F51800
+violeta: #A81B87

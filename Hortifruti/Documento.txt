@@ -1,0 +1,6 @@
+Palheta de cores:
+Abobora : #FF7E0F       Cores texto: black and white
+Marrom  : #DEA30D
+Amarelo : #F5E61B
+Verde Es: #72DE0D
+Verde Cl: #13FA45
