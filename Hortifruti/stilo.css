@@ -23,11 +23,17 @@ body{
     background-color: #DEA30D;
 }
 article{
-    margin: 10px;
+    margin: 15px;
     text-indent: 20px;
+    text-align: justify;
+    font-size: 1.1rem;
 }
-article div{
-    display: inline;
+article img{
+    float: left;
+    margin-right: 10px;
+}
+#Tex_principal{
+font-size: 1.3rem;
 }
 footer{
     text-align: center;
