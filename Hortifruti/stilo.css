@@ -22,8 +22,11 @@ nav a{
 body{
     background-color: #DEA30D;
 }
+main{
+    margin: auto;
+}
 article{
-    margin: 15px;
+    margin: 10px;
     text-indent: 20px;
     text-align: justify;
     font-size: 1.1rem;
