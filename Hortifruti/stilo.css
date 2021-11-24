@@ -6,10 +6,16 @@
 header{
     text-align: center;
     background-color: #72DE0D;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 nav{
-text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #72DE0D;
+    text-align: center;
 }
 nav a{
     border-radius: 10px;
@@ -23,7 +29,11 @@ body{
     background-color: #DEA30D;
 }
 main{
+    background-color: #13fa4580;
     margin: auto;
+    min-width: 440px;
+    max-width: 100px;
+    padding: 10px;
 }
 article{
     margin: 10px;
@@ -35,7 +45,7 @@ article img{
     float: left;
     margin-right: 10px;
 }
-#Tex_principal{
+.Tex_principal{
 font-size: 1.3rem;
 }
 footer{
