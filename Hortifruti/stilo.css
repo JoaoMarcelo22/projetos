@@ -35,6 +35,9 @@ main{
     max-width: 100px;
     padding: 10px;
 }
+.nome_cientifico{
+    display: inline-block;
+}
 article{
     margin: 10px;
     text-indent: 20px;
